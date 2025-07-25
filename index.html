@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Faugei</title>
+  </head>
+  <body class="bg-[#f6f8ff]">
+    <!-- Navbar -->
+    <header class="flex items-center justify-between px-4 py-4">
+      <!-- Left: Logo + Website Name -->
+      <div class="flex items-center space-x-8">
+        <img src="images/logo.png" alt="Logo" class="h-[82px] w-[135px]" />
+      </div>
+
+      <!-- Right: Navigation + Cart -->
+      <div class="flex items-center space-x-6">
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex items-center space-x-6 text-sm text-gray-500">
+          <a href="#" class="hover:text-orange-500 font-semibold text-black">Home</a>
+          <a href="#" class="hover:text-orange-500">Shop</a>
+          <a href="#" class="hover:text-orange-500">About us</a>
+        </nav>
+
+        <!-- Cart Icon with Image -->
+        <a href="#" class="hover:text-orange-500 flex items-center space-x-1 text-black text-sm">
+          <img src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" alt="Cart" class="w-4 h-4" />
+          <span>Cart ($56)</span>
+        </a>
+      </div>
+     </header>
+     <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-between px-6 py-12 max-w-7xl mx-auto bg-gray mt-6">
+    <!-- Left Content -->
+    <div class="md:w-1/2 w-full mb-8 md:mb-0">
+      <h1 class="text-4xl font-bold leading-tight mb-4">
+        <span class="text-black">ALWAYS</span>
+        <span class="text-orange-600"> FRESH</span><br />
+        <span class="text-orange-600">FLOWERS</span>
+      </h1>
+      <p class="text-gray-500 text-sm">
+        Indulge your senses with the beauty and fragrance of our fresh flower shop.
+        From classic roses to exotic blooms, we offer a wide variety of fresh flowers
+        that are perfect for any occasion.
+      </p>
+    </div>
+
+    <!-- Right Image -->
+    <div class="md:w-1/2 w-full flex justify-center">
+      <img src="images/hero-flower.png" alt="Flowers" class="w-full max-w-md md:max-w-full" />
+    </div>
+  </section>
+
+
+
+
+
+
+  </body>
+</html>
